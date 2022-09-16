@@ -40,7 +40,7 @@ body{
     border-width: 3.5px;
     border-color: whitesmoke;
     border-style: solid;
-    box-shadow: 5px 5px 5px 5px rgb(248, 79, 79); 
+    box-shadow: 5px 5px 5px 5px rgb(102, 60, 250); 
     margin: 10px 0;
   }
   
@@ -48,7 +48,7 @@ body{
     border-width: 3.5px;
     border-color: white;
     border-style: solid;
-    box-shadow: 5px 5px 5px 5px rgb(248, 79, 79); 
+    box-shadow: 5px 5px 5px 5px rgb(64, 21, 221); 
     text-decoration: none;
   }
   
