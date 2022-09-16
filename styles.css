@@ -1,5 +1,12 @@
+.neon-blue:active{
+   color:#0aa8e6; 
+   background: #000000;
+}
+@media only screen and (max-device-width: 700px) {
+  /* .menu { width:400px; } */
+  }
 header{
-  background-color: rgb(64, 116, 5);
+  background: url(plataforma.jpg);
 }
 div .navbar{
   background-color: rgb(252, 136, 27);
@@ -7,7 +14,13 @@ div .navbar{
 body{
     background-color: rgb(41, 162, 199);
     align-items: center;
-    background: url(https://mongagua.sp.gov.br/turismo/pontos-turisticos/plataforma-de-pesca-amadora-de-mongagua_3);
+    background: url(plataforma.jpg);
+}
+.container img {
+  max-width:200px;
+  max-height:150px;
+  width: 50px;
+  height: 50px;
 }
 :root {
     --primary-color: rgb(252, 136, 27); 
@@ -32,24 +45,55 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 1.4;
     color: rgb(255, 255, 255);
-    scroll-behavior: smooth;   
+    scroll-behavior: smooth;
+    background: url('plataforma.jpg');
+    width: fit-content; 
 }
   
   
   p {
+    background: #0aa8e6;
+    color: black;
+    box-shadow: 0 0 10px #0aa8e6, 0 0 40px #0aa8e6, 0 0 70px #0aa8e6;
+    position: relative;
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 40px 0;
+    text-decoration: none;
+    transition: 0.4s;
+    overflow: hidden;
+    margin-right: 50px;
+    border: 2px solid #0aa8e6;
+    border-radius:50px;
     border-width: 3.5px;
-    border-color: whitesmoke;
+    border-color: orange;
     border-style: solid;
     box-shadow: 5px 5px 5px 5px rgb(102, 60, 250); 
     margin: 10px 0;
   }
   
   a {
+    background-color:#0aa8e6;
+    color: black;
     border-width: 3.5px;
-    border-color: white;
+    border-color: orange;
     border-style: solid;
     box-shadow: 5px 5px 5px 5px rgb(64, 21, 221); 
     text-decoration: none;
+    box-shadow: 0 0 10px #0aa8e6, 0 0 40px #0aa8e6, 0 0 70px #0aa8e6;
+    position: relative;
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 40px 0;
+    text-decoration: none;
+    transition: 0.4s;
+    overflow: hidden;
+    margin-right: 50px;
+    border: 2px solid #0fa8e6;
+    border-radius:50px;
+    border-width: 3.5px;
+    border-style: solid;
+    margin: 10px 0;
   }
   
   span {
@@ -111,7 +155,7 @@ body{
     height: 75px;
     font-size: 1rem;
     background: rgb(252, 136, 27);
-    color: #fff;
+    color: black;
     padding: 0 8rem;
     z-index: 10;
   }
