@@ -16,6 +16,39 @@ body{
     align-items: center;
     background: url(plataforma.jpg);
 }
+body {
+  background-color: rgb(75, 75, 141);
+  color: white;
+  font-size: 24px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+  body {
+      background-color: royalblue;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+      background-color: darkgreen;
+      font-size: 16px;
+  }
+
+  h1 {
+      display: none;
+  }
+
+  nav {
+      flex-direction: column;
+  }
+}
+/* comentario fds slaaaaaaa/*
+
 .container img {
   max-width:200px;
   max-height:150px;
@@ -80,7 +113,7 @@ body{
     border-style: solid;
     box-shadow: 5px 5px 5px 5px rgb(64, 21, 221); 
     text-decoration: none;
-    box-shadow: 0 0 10px #0aa8e6, 0 0 40px #0aa8e6, 0 0 70px #0aa8e6;
+    box-shadow: 0 0 10px #0aa8e6, 0 0 10px #0aa8e6, 0 0 10px #0aa8e6;
     position: relative;
     display: inline-block;
     padding: 15px 20px;
