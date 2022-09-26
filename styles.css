@@ -5,16 +5,13 @@
 @media only screen and (max-device-width: 700px) {
   /* .menu { width:400px; } */
   }
-header{
-  background: url(plataforma.jpg);
-}
 div .navbar{
   background-color: rgb(252, 136, 27);
 }
 body{
     background-color: rgb(41, 162, 199);
     align-items: center;
-    background: url(plataforma.jpg);
+    background: url('plataforma.jpg');
 }
 body {
   background-color: rgb(75, 75, 141);
