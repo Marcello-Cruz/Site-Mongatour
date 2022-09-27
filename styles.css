@@ -24,12 +24,12 @@ body{
 }
 :root {
     --primary-color: rgb(252, 136, 27); 
-    --primary-color-dark: rgb(197, 105, 13);
-    --box-color1: rgb(253, 162, 57);
-    --box-color2: rgb(253, 137, 36);
-    --box-color3: rgb(255, 137, 53);
-    --box-color4: rgb(250, 113, 54);
-    --box-color5: rgb(247, 142, 56);
+    --primary-color-dark: rgb(252, 136, 32);
+    --box-color1: rgb(253, 136, 60);
+    --box-color2: rgb(255, 157, 45);
+    --box-color3: rgb(248, 141, 41);
+    --box-color4: rgb(185, 116, 26);
+    --box-color5: rgb(186, 117, 66);
   }
   
   /* resete css */
@@ -54,7 +54,7 @@ body{
   p {
     background: #0aa8e6;
     color: black;
-    box-shadow: 0 0 10px #0aa8e6, 0 0 40px #0aa8e6, 0 0 70px #0aa8e6;
+    box-shadow: 10px #0aa8e6, 0 0 40px #0aa8e6, 0 0 70px #0aa8e6;
     position: relative;
     display: inline-block;
     padding: 15px 20px;
@@ -368,6 +368,6 @@ body{
   
   .linha {
     border: 1px solid var(--primary-color);
-    width: 45%;
+    width: 55%;
     margin-bottom: 1rem;
   }
