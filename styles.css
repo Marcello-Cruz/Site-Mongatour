@@ -154,7 +154,7 @@ nav {
  /* navbar */
  
  .navbar {
-   background-color: rgb(252, 136, 27);
+   background-color: rgb(117, 59, 5);
    position: fixed;
    display: flex;
    align-items: center;
@@ -184,7 +184,7 @@ nav {
  }
  
  .navio-logo:hover {
-   transform: rotate(-360deg);
+   transform: rotate(-354deg);
  }
  
  .navbar ul  {
