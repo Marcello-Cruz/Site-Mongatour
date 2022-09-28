@@ -154,7 +154,7 @@ nav {
  /* navbar */
  
  .navbar {
-   background-color: rgb(29, 240, 124);
+   background-color: rgb(252, 136, 27);
    position: fixed;
    display: flex;
    align-items: center;
@@ -179,12 +179,12 @@ nav {
    font-size: 1.7rem;
  }
  
- .pata-logo {
+ .navio-logo {
    transition: all 1s ease;
  }
  
- .pata-logo:hover {
-   transform: rotate(-354deg);
+ .navio-logo:hover {
+   transform: rotate(-360deg);
  }
  
  .navbar ul  {
@@ -355,9 +355,8 @@ nav {
    color: #333;
    background:  #fff;
    border: 1px solid var(--primary-color);
-  box-shadow: var(--box-color1) 0px 5px, var(--box-color2) 0px 10px, var(--box-color3) 0px 15px, var(--box-color4) 0px 20px, var(--box-color5) 0px 25px;
+   box-shadow: var(--box-color1) 0px 5px, var(--box-color2) 0px 10px, var(--box-color3) 0px 15px, var(--box-color4) 0px 20px, var(--box-color5) 0px 25px;
    border-radius: 10px;
-   transition: all 0.5s ease-in-out;
  }
  
  .container-box .box:hover {
@@ -365,14 +364,15 @@ nav {
  }
  
  .icon-about {
-   color: #111;
+   color: rgb(0, 0, 0);
    display: flex;
    align-items: center;
    justify-content: center;
    font-size: 2rem;
    margin-bottom: 15px;
- }
- 
+   transition: all 0.5s ease-in-out;
+  }
+
  .linha {
    border: 1px solid var(--primary-color);
    width: 55%;
